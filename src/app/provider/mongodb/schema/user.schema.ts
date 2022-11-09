@@ -3,9 +3,6 @@ import { Prop, Schema, SchemaFactory } from '@nestjs/mongoose';
 
 @Schema({ collection: 'users' })
 export class User {
-  @Prop({ require: true })
-  uid: string;
-
   @Prop({ required: true })
   email: string;
 
