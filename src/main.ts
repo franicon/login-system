@@ -13,6 +13,6 @@ async function bootstrap() {
   });
 
   // Listen to port
-  await app.listen(app.get(ConfigService).get('port') || 40000);
+  await app.listen(app.get(ConfigService).get('PORT') || 40000);
 }
 bootstrap();
