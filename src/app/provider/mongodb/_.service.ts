@@ -9,4 +9,15 @@ export class MongoService {
     @InjectModel(User.name)
     private readonly userModel: Model<UserDocument>,
   ) {}
+
+  async getUser(email: string) {
+    return this.userModel.findOne({ email }).select('-_id email');
+  }
+
+  // SAVE OR CREATE
+  async createUser(email: string) {
+    if (!(await this.getUser(email))) {
+      return await this.userModel.create({ email });
+    }
+  }
 }
