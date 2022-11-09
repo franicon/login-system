@@ -12,7 +12,7 @@ RUN npm run format && npm run build
 
 EXPOSE 40000
 
-CMD node 'dist/mian'
+CMD node 'dist/main'
 
 
 
