@@ -38,5 +38,5 @@ This project repo is hands-on-practice on building real life applications for a 
 
 - Author - [Abayomi Aluko Francis](https://kamilmysliwiec.com)
 - Website - [abayomi.com](https://nestjs.com/)
-- Twitter - [@yomialuko1](https://twitter.com/yomialuko1)
+- Twitter - [@yomialuko1](https://twitter.com/yomialuko7)
 
