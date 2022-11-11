@@ -1,5 +1,6 @@
-class User {
-  email: string;
+class UserDto {
+  username: string;
+  password: string;
 }
 
-export { User };
+export { UserDto };
