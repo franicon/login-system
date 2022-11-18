@@ -1,6 +1,6 @@
-class User {
+class UserDto {
   username: string;
   password: string;
 }
 
-export { User };
+export { UserDto };
